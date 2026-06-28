@@ -1,0 +1,6 @@
+{
+  "name": "Note-ing",
+  "description": "An offline-first feature-rich note taking application with multi-format editors, local security lock, and real-time financial tracking dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

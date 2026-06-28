@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Rules for the users collection and its subcollections
+    match /users/{userId} {
+      // Allow read and write only if the requesting user is authenticated and is the owner of the document
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Restrict access to all sub-collections (e.g. notes, transactions, bank_balances, loans, dashboard)
+      match /{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}

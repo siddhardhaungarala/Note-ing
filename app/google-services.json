@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160454217325",
+    "project_id": "note-ing",
+    "storage_bucket": "note-ing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160454217325:android:30104f8e76b67f55c4f964",
+        "android_client_info": {
+          "package_name": "com.aistudio.noteing.jkybqp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnmzhR-vLuYb4wUyZpwlKDIKCP9OqoKDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
